@@ -1,0 +1,76 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right:10%;
+  }
+  .quote-one {
+      grid-column:1 / 4;
+      grid-row: 2;
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-top-style:solid;
+      border-bottom-style: solid;
+  }
+  .three {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    margin:auto;
+    margin-left:10%;
+    margin-right:10%;
+  }
+  .four {
+    grid-column: 3 / 4;
+    grid-row: 3;
+  }
+  .quote-two {
+    grid-column:1 / 4;
+    grid-row: 4;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top-style:solid;
+    border-bottom-style: solid;
+}
+  .five {
+    grid-column: 1 / 3;
+    grid-row: 5;
+    margin-right:10%;
+  }
+  .six {
+    grid-column: 2 / 4;
+    grid-row: 5;
+    margin-right:10%;
+    margin-left:10%;
+  }
+
+  .quote-three {
+    grid-column:1 / 4;
+    grid-row: 6;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top-style:solid;
+    border-bottom-style: solid;
+}
+
+  .seven {
+    grid-column: 1 / 3;
+    grid-row: 7;
+  }
+  .eight {
+    grid-column: 2 / 4;
+    grid-row: 7;
+  }
