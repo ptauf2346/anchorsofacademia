@@ -62,21 +62,21 @@ body {
            alt="Josh and Paul">
       <figcaption>Josh and Paul</figcaption>
   </figure>
+  <p align='justify'>Joshua Greenlee and Paul Taufalele are both 5th year PhD students at Vanderbilt University in the department of Biomedical Engineering.
+    They can be reached using the following form: </p>
   </div>
   <div class="eight">
-    <p>Joshua Greenlee and Paul Taufalele are both 5th year PhD students at Vanderbilt University in the department of Biomedical Engineering.
-    They can be reached at their respective emails: </p>
-    <p>joshua.d.greenlee [at] vanderbilt.edu & paul.v.taufalele [at] vanderbilt.edu.</p>
+    <div class="container">
+      <form name="contact" method="POST" data-netlify="true">
+          <label>Your Name: <input type="text" name="name" placeholder="Your name"/></label>   
+          <label>Your Email: <input type="email" name="email" placeholder="Your email address"/></label>
+          <label>Message: <textarea name="message" placeholder="Your message"></textarea></label>
+          <button type="submit">Send</button>
+      </form>
+      </div>
   </div>
 </div>
-<div class="container">
-  <form name="contact" method="POST" data-netlify="true">
-      <label>Your Name: <input type="text" name="name" placeholder="Your name"/></label>   
-      <label>Your Email: <input type="email" name="email" placeholder="Your email address"/></label>
-      <label>Message: <textarea name="message" placeholder="Your message"></textarea></label>
-      <button type="submit">Send</button>
-  </form>
-  </div>
+
 
 
 
