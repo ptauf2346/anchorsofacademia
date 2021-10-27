@@ -7,6 +7,7 @@
   .one {
     grid-column: 1 / 3;
     grid-row: 1;
+    margin-left:10%;
   }
   .two {
     grid-column: 2 / 4;
@@ -47,7 +48,7 @@
   .five {
     grid-column: 1 / 3;
     grid-row: 5;
-    margin-right:10%;
+    margin-left:15%;
   }
   .six {
     grid-column: 2 / 4;
@@ -69,8 +70,26 @@
   .seven {
     grid-column: 1 / 3;
     grid-row: 7;
+    margin-top:auto;
   }
   .eight {
     grid-column: 2 / 4;
     grid-row: 7;
   }
+
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 150px;
+    margin-left: 15%;
+    margin-top:auto;
+}
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
