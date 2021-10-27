@@ -69,23 +69,15 @@ body {
     <p>joshua.d.greenlee [at] vanderbilt.edu & paul.v.taufalele [at] vanderbilt.edu.</p>
   </div>
 </div>
-
 <div class="container">
-  <form method="post" action="contact-form-process.php">
-
-    <label for="fname">Full Name</label>
-    <input type="text" id="Name" name="Name" placeholder="Your name..">
-
-    <label for="email">Your Email</label>
-    <input type="email" id="Email" name="Email" placeholder="Your email address.">
-
-    <label for="subject">Subject</label>
-    <textarea id="Message" name="Message" placeholder="Write your message.." style="height:100px"></textarea>
-
-    <button type="submit">Submit</button>
-
+  <form name="contact" method="POST" data-netlify="true">
+      <label>Your Name: <input type="text" name="name" placeholder="Your name"/></label>   
+      <label>Your Email: <input type="email" name="email" placeholder="Your email address"/></label>
+      <label>Message: <textarea name="message" placeholder="Your message"></textarea></label>
+      <button type="submit">Send</button>
   </form>
-</div>
+  </div>
+
 
 
 </body>
